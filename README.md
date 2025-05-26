@@ -57,3 +57,13 @@ We will continue to update the list of the resources and provide a comprehensive
 - Xi’an
 - Chengdu
 - Japan
+
+### General
+- ETTh1
+- ETTh2
+- ETTm1
+- ETTm2 
+- Weather
+- Electricity
+- Traffic 
+- ILI
