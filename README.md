@@ -24,12 +24,15 @@ We will continue to update the list of the resources and provide a comprehensive
 
 ## Dataset
 ### Traffic
--PEMS-BAY
--METR-LA
--PEMS (PEMS03, PEMS04, PEMS07, and PEMS08)
--NYCTaxi
--CHBike
--CHI-taxi
--NYC-bike
--CATraffic
-
+- PEMS-BAY
+- METR-LA
+- PEMS
+  - PEMS03
+  - PEMS04
+  - PEMS07
+  - PEMS08
+- NYCTaxi
+- CHBike
+- CHI-taxi
+- NYC-bike
+- CATraffic
