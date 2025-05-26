@@ -35,4 +35,25 @@ We will continue to update the list of the resources and provide a comprehensive
 - CHBike
 - CHI-taxi
 - NYC-bike
-- CATraffic
+
+### Industry
+- C-MAPSS
+
+### Recognition
+- UCI-HAR
+
+### Health
+- ISRUC-S3
+
+### Human Mobility
+- Blogwatcher data
+
+### Energy
+- NorthSea
+- DSWE
+- NREL
+- SDWPF
+### POI
+- Xi’an
+- Chengdu
+- Japan
