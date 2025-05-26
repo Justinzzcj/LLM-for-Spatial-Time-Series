@@ -21,3 +21,15 @@ We will continue to update the list of the resources and provide a comprehensive
 - [Spatial-Temporal Large Language Model for Traffic Prediction][[IEEE International Conference on Mobile Data Management (MDM)]](https://ieeexplore.ieee.org/document/10591642)[[Code]](https://github.com/ChenxiLiu-HNU/ST-LLM)
 - [UrbanGPT: Spatio-Temporal Large Language Models][[ACM SIGKDD 2024]](https://dl.acm.org/doi/10.1145/3637528.3671578)[[Code]](https://github.com/HKUDS/UrbanGPT)[[Project]](https://urban-gpt.github.io/)
 - [Towards explainable traffic flow prediction with large language models][[Communications in Transportation Research]](https://www.sciencedirect.com/science/article/pii/S2772424724000337)
+
+## Dataset
+### Traffic
+PEMS-BAY
+METR-LA
+PEMS (PEMS03, PEMS04, PEMS07, and PEMS08)
+NYCTaxi
+CHBike
+CHI-taxi
+NYC-bike
+CATraffic
+
