@@ -17,4 +17,6 @@ We will continue to update the list of the resources and provide a comprehensive
 - [BERT4ST:: Fine-tuning pre-trained large language model for wind power forecasting][[Energy Conversion and Management]](https://www.sciencedirect.com/science/article/abs/pii/S0196890424002723)
 - [STELLM: Spatio-temporal enhanced pre-trained large language model for wind speed forecasting][[Applied Energy]](https://www.sciencedirect.com/science/article/abs/pii/S030626192401417X)
 - [nextlocllm: next location prediction using LLMs][[arXiv]](https://arxiv.org/abs/2410.09129)
-- 
+- [Spatial-Temporal Large Language Model for Traffic Prediction][[IEEE International Conference on Mobile Data Management (MDM)]](https://ieeexplore.ieee.org/document/10591642)[[Code]](https://github.com/ChenxiLiu-HNU/ST-LLM)
+- [UrbanGPT: Spatio-Temporal Large Language Models][[ACM SIGKDD 2024]](https://dl.acm.org/doi/10.1145/3637528.3671578)[[Code]](https://github.com/HKUDS/UrbanGPT)[[Project]](https://urban-gpt.github.io/)
+- [Towards explainable traffic flow prediction with large language models][[Communications in Transportation Research]](https://www.sciencedirect.com/science/article/pii/S2772424724000337)
