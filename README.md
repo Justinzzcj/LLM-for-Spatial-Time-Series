@@ -3,4 +3,4 @@ A list of Large Language Model for Spatial-temporal data, including papers, data
 We will continue to update the list of the resources and provide a comprehensive taxonomy in the future.
 
 ## LLM with graph
-- [GraphGPT: Graph Instruction Tuning for Large Language Models](https://arxiv.org/abs/2310.13023) [[Code]](https://github.com/microsoft/GraphGPT)
+- [GATGPT: a pre-trained large language model with graph attention network for spatiotemporal imputation]([arXiv](https://arxiv.org/abs/2311.14332))
