@@ -11,7 +11,7 @@ We will continue to update the list of the resources and provide a comprehensive
 - [K-Link: Knowledge-Link Graph from LLMs for Enhanced Representation Learning in Multivariate Time-Series Data][[arXiv]](https://arxiv.org/abs/2403.03645)
 - [CausalMob: Causal Human Mobility Prediction with LLMs-derived Human Intentions toward Public Events][[ACM SIGKDD 2025]](https://dl.acm.org/doi/10.1145/3690624.3709231)[[Code]](https://github.com/YangXiaojie1998/CausalMob/?tab=readme-ov-file)
 - [Context-Alignment: Activating and Enhancing LLMs Capabilities in Time Series][[ICLR 2025]](https://openreview.net/forum?id=syC2764fPc)[[Code]](https://github.com/tokaka22/ICLR25-FSCA)
-- [ST-LLM+: Graph Enhanced Spatio-Temporal Large Language Models for Traffic Prediction][[IEEE TKDE]](https://ieeexplore.ieee.org/document/11005661)
+- [ST-LLM+: Graph Enhanced Spatio-Temporal Large Language Models for Traffic Prediction][[IEEE TKDE]](https://ieeexplore.ieee.org/document/11005661)[[Code]](https://github.com/ChenxiLiu-HNU/ST-LLM-Plus)
 - [Embracing Large Language Models in Traffic Flow Forecasting][[arXiv]](https://arxiv.org/abs/2412.12201)
 
 ## LLM with spatial encoding
