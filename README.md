@@ -1,4 +1,4 @@
-# LLM-with-Spatial-Temporal-Data
+# LLM-for-Spatial-Time-Series
 A list of Large Language Model (LLM) for Spatial Time Series, including papers, datasets and codes, which aims at summerizing recent studies to improve our corresponding knowledge.
 We will continue to update the list of the resources and provide a comprehensive taxonomy in the future.
 
