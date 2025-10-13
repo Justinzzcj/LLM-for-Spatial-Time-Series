@@ -46,4 +46,24 @@ We will continue to update the list of the resources and provide a comprehensive
 #### LLM as Aligner
 -[K-Link: Knowledge-Link Graph from LLMs for Enhanced Representation Learning in Multivariate Time-Series Data][[arXiv]](https://arxiv.org/abs/2403.03645)
 
-
+## Dataset
+### General
+- [[ETTh]](https://github.com/zhouhaoyi/ETDataset)
+- [[Electricity]](https://archive.ics.uci.edu/dataset/321/electricityloaddiagrams20112014)
+- [[Weather]](https://www.bgc-jena.mpg.de/wetter/)
+- [[ILI]](https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html)
+### Traffic
+- [[PEMS]](https://pems.dot.ca.gov/)
+- [[METR-LA]](https://github.com/liyaguang/DCRNN)
+- [[PEMS-BAY]](https://github.com/liyaguang/DCRNN)
+- [[NYCTaxi]](https://www.nyc.gov/site/tlc/about/data.page)
+- [[NYCBike]](https://citibikenyc.com/system-data)
+### Energy
+- [[NREL]](https://www.nrel.gov/)
+- [[DSWE]](https://aml.engr.tamu.edu/book-dswe/dswe-datasets/)
+- [[SDWPF]](https://aistudio.baidu.com/competition/detail/152/0/introduction)
+### Network
+- [[Abilene]](https://www.cs.utexas.edu/~yzhang/research/AbileneTM/)
+- [[Geant]](https://dl.acm.org/doi/10.1145/1111322.1111341)
+- [[Shanghai Dataset]](https://ieeexplore.ieee.org/document/7762185)
+- [[Nanjing Dataset]](https://dl.acm.org/doi/10.1145/3690650)
