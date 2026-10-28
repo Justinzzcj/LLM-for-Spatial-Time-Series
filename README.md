@@ -2,49 +2,58 @@
 A list of Large Language Model (LLM) for Spatial Time Series, including papers, datasets and codes, which aims at summerizing recent studies to improve our corresponding knowledge.
 We will continue to update the list of the resources and provide a comprehensive taxonomy in the future.
 ## Taxonomy
+
 ### Serial
+
 #### LLM as Encoder
-- [Pre-training Enhanced Spatial-temporal Graph Neural Network for Multivariate Time Series Forecasting][[ACM SIGKDD 2022]](https://dl.acm.org/doi/10.1145/3534678.3539396)[[Code]](https://github.com/GestaltCogTeam/STEP)
-- [DST-GTN: Dynamic Spatio-Temporal Graph Transformer Network for Traffic Forecasting][[arXiv]](https://arxiv.org/abs/2404.11996)
-- [Spatio-Temporal Adaptive Embedding Makes Vanilla Transformer SOTA for Traffic Forecasting][[CIKM 2023]](https://dl.acm.org/doi/10.1145/3583780.3615160)[[Code]](https://github.com/XDZhelheim/STAEformer)
-- [ImputeFormer: Low rankness-induced transformers for generalizable spatiotemporal imputation][[ACM SIGKDD 2024]](https://dl.acm.org/doi/10.1145/3637528.3671751)[[Code]](https://github.com/tongnie/ImputeFormer)
-- [CrossST: An Efficient Pre-Training Framework for Cross-District Pattern Generalization in Urban Spatio-Temporal Forecasting][[ICDE 2025]](https://www.computer.org/csdl/proceedings-article/icde/2025/360300c935/26FZBkxez6w)[[Code]](https://github.com/Aoyu-Liu/CrossST)
-- [STTF: A Spatiotemporal Transformer Framework for Multi-task Mobile Network Prediction][[IEEE TMC]](https://ieeexplore.ieee.org/document/10840287)
-- [Navigating Spatio-Temporal Heterogeneity: A Graph Transformer Approach for Traffic Forecasting][[arXiv]](https://arxiv.org/abs/2408.10822)[[Code]](https://github.com/jasonz5/STGormer)
-- [FSTLLM: Spatio-Temporal LLM for Few Shot Time Series Forecasting][[ICML 2025]](https://openreview.net/forum?id=oyoiHf51es)[[Code]](https://github.com/JIANGYUE61610306/FSTLLM)
+- [Geolocation representation from large language models are generic enhancers for spatio-temporal learning (LLMGeovec)][[AAAI 2025]](https://ojs.aaai.org/index.php/AAAI/article/view/33879)
+- [UrbanMind: Urban dynamics prediction with multifaceted spatial-temporal large language models][[ACM SIGKDD 2025]](https://dl.acm.org/doi/10.1145/3711896.3737177)[[Code]](https://github.com/Yliu1111/UrbanMind)
+
 #### LLM as Decoder
-- [GATGPT: A Pre-trained Large Language Model with Graph Attention Network for Spatiotemporal Imputation][[arXiv]](https://arxiv.org/abs/2311.14332)
-- [MultiSPANS: A Multi-range Spatial-Temporal Transformer Network for Traffic Forecast via Structural Entropy Optimization][[WSDM 2024]](https://dl.acm.org/doi/10.1145/3616855.3635820)[[Code]](https://github.com/SELGroup/MultiSPANS)
-- [Spatiotemporal Pretrained Large Language Model for Forecasting With Missing Values][[IEEE IOTJ]](https://ieeexplore.ieee.org/document/10833705)
-- [How Can Large Language Models Understand Spatial-Temporal Data?][[arXiv]](https://arxiv.org/abs/2401.14192)
-- [ST-LLM+: Graph Enhanced Spatio-Temporal Large Language Models for Traffic Prediction][[IEEE TKDE]](https://ieeexplore.ieee.org/document/11005661)[[Code]](https://github.com/kethmih/ST-LLM-Plus)
-- [STGformer: Efficient Spatiotemporal Graph Transformer for Traffic Forecasting][[arXiv]](https://arxiv.org/abs/2410.00385)[[Code]](https://github.com/Dreamzz5/STGformer)
+- [ST-LLM+: Graph Enhanced Spatio-Temporal Large Language Models for Traffic Prediction][[IEEE TKDE 2025]](https://ieeexplore.ieee.org/document/11005661)[[Code]](https://github.com/kethmih/ST-LLM-Plus)
+- [Causal intervention is what large language models need for spatio-temporal forecasting (STCInterLLM)][[IEEE TCYB 2025]](https://ieeexplore.ieee.org/document/11017752)[[Code]](https://github.com/lishijie15/STCInterLLM)
+- [A scalable and generic framework for city-wide traffic prediction with large language model (LLM-UTP)][[Nature Communications 2026]](https://www.nature.com/articles/s41467-026-73610-2)[[Code]](https://zenodo.org/records/19503648)
+- [DynamicVL: Benchmarking multimodal large language models for dynamic city understanding (DVLChat)][[NeurIPS 2025 D&B]](https://proceedings.neurips.cc/paper_files/paper/2025/hash/2fb80f455dc6056422c8af87dca50489-Abstract-Datasets_and_Benchmarks_Track.html)[[Code]](https://github.com/weihao1115/dynamicvl)
+- [UrbanGPT: Spatio-temporal large language models][[ACM SIGKDD 2024]](https://dl.acm.org/doi/10.1145/3637528.3671578)[[Code]](https://github.com/HKUDS/UrbanGPT)
+
 #### LLM as Data Augmentation
-- [CausalMob: Causal Human Mobility Prediction with LLMs-derived Human Intentions toward Public Events][[ACM SIGKDD 2025]](https://dl.acm.org/doi/10.1145/3690624.3709231)[[Code]](https://github.com/YangXiaojie1998/CausalMob)
+- [CausalMob: Causal human mobility prediction with LLMs-derived human intentions toward public events][[ACM SIGKDD 2025]](https://dl.acm.org/doi/10.1145/3690624.3709231)[[Code]](https://github.com/YangXiaojie1998/CausalMob)
 
 ### Interleaving
+
 #### LLM as Encoder
-- [Context-Alignment: Activating and Enhancing LLMs Capabilities in Time Series][[ICLR 2025]](https://openreview.net/forum?id=syC2764fPc)[[Code]](https://github.com/tokaka22/ICLR25-FSCA)
-- [PIGAT: Physics-Informed Graph Attention Transformer for Air Traffic State Prediction][[IEEE TITS]](https://ieeexplore.ieee.org/document/10505827)[[Code]](https://github.com/ymlasu/para-atm-collection/tree/master/air-traffic-prediction/PIGAT)
-- [TLAST: A Time-Lag Aware Spatial-Temporal Transformer for Traffic Flow Forecasting][[IEEE TITS]](https://ieeexplore.ieee.org/document/11077815)
+- [Context-Alignment: Activating and Enhancing LLMs Capabilities in Time Series (FSCA)][[ICLR 2025]](https://openreview.net/forum?id=syC2764fPc)[[Code]](https://github.com/tokaka22/ICLR25-FSCA)
+- [TAMMs: Change understanding and forecasting in satellite image time series with temporal-aware multimodal models][[ICLR 2026]](https://arxiv.org/abs/2506.18862)
+- [FSTLLM: Spatio-temporal LLM for few shot time series forecasting][[ICML 2025]](https://proceedings.mlr.press/v267/jiang25a.html)[[Code]](https://github.com/JIANGYUE61610306/FSTLLM)
+- [Physics-informed LLM-guided dynamic spatio-temporal graph deep network for short-term wind farm power forecasting (LLXSTG-MST)][[Energy Conversion and Management 2026]](https://www.sciencedirect.com/science/article/pii/S019689042600943X)
+
+#### LLM as Decoder
+- [FSTLLM: Spatio-temporal LLM for few shot time series forecasting][[ICML 2025]](https://proceedings.mlr.press/v267/jiang25a.html)[[Code]](https://github.com/JIANGYUE61610306/FSTLLM)
+- [ST-LINK: Spatially-aware large language models for spatio-temporal forecasting][[CIKM 2025]](https://dl.acm.org/doi/10.1145/3746252.3761085)[[Code]](https://github.com/HyoTaek98/ST_LINK)
 
 ### Parallel
+
 #### LLM as Encoder
-- [Scaling Up Multivariate Time Series Pre-Training with Decoupled Spatial-Temporal Representations][[ICDE 2024]](https://ieeexplore.ieee.org/document/10598155)
-- [LLGformer: Learnable Long-range Graph Transformer for Traffic Flow Prediction][[WWW 2025]](https://dl.acm.org/doi/abs/10.1145/3696410.3714596)
-- [PDFormer: propagation delay-aware dynamic long-range transformer for traffic flow prediction][[AAAI 2023]](https://dl.acm.org/doi/10.1609/aaai.v37i4.25556)[[Code]](https://github.com/BUAABIGSCity/PDFormer)
-- [Spatial-Temporal-Decoupled Masked Pre-training for Spatiotemporal Forecasting][[IJCAI 2024]](https://www.ijcai.org/proceedings/2024/442)[[Code]](https://github.com/Jimmy-7664/STD-MAE)
+- [Geolocation representation from large language models are generic enhancers for spatio-temporal learning (LLMGeovec)][[AAAI 2025]](https://ojs.aaai.org/index.php/AAAI/article/view/33879)
+- [GLALLM: Adapting LLMs for spatio-temporal wind speed forecasting via global-local aware modeling][[Knowledge-Based Systems 2025]](https://www.sciencedirect.com/science/article/pii/S0950705125007853)
+- [MobileLLM: Semantic-enhanced large language model for multimodal cellular traffic prediction in urban networks][[IEEE TMC 2026]](https://doi.org/10.1109/TMC.2026.3684577)[[Code]](https://github.com/Dreamzz5/MobileLLM)
+
 #### LLM as Decoder
-- [TPLLM: A traffic prediction framework based on pretrained Large Language Models][[Applied Soft Computing]](https://www.sciencedirect.com/science/article/pii/S1568494625011536)
 - [STD-PLM: Understanding Both Spatial and Temporal Properties of Spatial-Temporal Data with PLM][[AAAI 2025]](https://ojs.aaai.org/index.php/AAAI/article/view/33286)[[Code]](https://github.com/Hyheng/STD-PLM)
-- [BERT4ST:: Fine-tuning pre-trained large language model for wind power forecasting][[Energy Conversion and Management]](https://www.sciencedirect.com/science/article/abs/pii/S0196890424002723)
-- [STELLM: Spatio-temporal enhanced pre-trained large language model for wind speed forecasting][[Applied Energy]](https://www.sciencedirect.com/science/article/abs/pii/S030626192401417X)
-- [NextLocLLM: Location Semantics Modeling and Coordinate-Based Next Location Prediction with LLMs][[arXiv]](https://arxiv.org/abs/2410.09129)[[Code]](https://github.com/liuwj2000/NexelocLLM)
-- [Spatial-Temporal Large Language Model for Traffic Prediction][[MDM 2024]](https://www.computer.org/csdl/proceedings-article/mdm/2024/745500a031/1YEw6c6c6Vq)[[Code]](https://github.com/ChenxiLiu-HNU/ST-LLM)
-- [ST-LINK: Spatially-Aware Large Language Models for Spatio-Temporal Forecasting][[CIKM 2025]](https://arxiv.org/abs/2509.13753)[[Code]](https://github.com/HyoTaek98/ST_LINK)
-- [STCA-LLM: Spatial-Temporal Cross-Attention Large Language Model for Wind Speed Forecasting][[IEEE IOTJ]](https://ieeexplore.ieee.org/document/11129036)[[Code]](https://github.com/Justinzzcj/STCA-LLM)
-#### LLM as Aligner
--[K-Link: Knowledge-Link Graph from LLMs for Enhanced Representation Learning in Multivariate Time-Series Data][[arXiv]](https://arxiv.org/abs/2403.03645)
+- [STELLM: Spatio-temporal enhanced pre-trained large language model for wind speed forecasting][[Applied Energy 2024]](https://www.sciencedirect.com/science/article/pii/S030626192401417X)
+- [Spatio-temporal data fusion framework based on large language model for enhanced prediction of electric vehicle charging demand in smart grid management (EV-STLLM)][[Information Fusion 2026]](https://eprints.whiterose.ac.uk/id/eprint/233614/)
+- [Satellite-text-prompted large language model for photovoltaic power forecasting (PV-LLM)][[AAAI 2026]](https://ojs.aaai.org/index.php/AAAI/article/view/41207)
+- [FUSAR-GPT: A spatiotemporal feature-embedded and two-stage decoupled visual language model for SAR imagery][[CVPR 2026]](https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_FUSAR-GPT_A_Spatiotemporal_Feature-Embedded_and_Two-Stage_Decoupled_Visual_Language_Model_CVPR_2026_paper.pdf)[[Code]](https://github.com/kklvyyhadr/FUSAR-GPT)
+- [Spatio-temporal LLM: Reasoning about environments and actions (STLLM-3D / STLLM-Aligner)][[ICML 2026]](https://proceedings.mlr.press/v306/zheng26s.html)[[Code]](https://github.com/zoezheng126/Spatio-Temporal-LLM)
+- [LLM4DyG: Can large language models solve spatial-temporal problems on dynamic graphs?][[ACM SIGKDD 2024]](https://dl.acm.org/doi/10.1145/3637528.3671709)[[Code]](https://github.com/wondergo2017/LLM4DyG)
+- [CLLMate: A multimodal benchmark for weather and climate events forecasting][[EMNLP 2025]](https://aclanthology.org/2025.emnlp-main.886/)[[Code]](https://github.com/hobolee/CLLMate)
+
+#### LLM as Data Augmentation
+- [CLLMate: A multimodal benchmark for weather and climate events forecasting][[EMNLP 2025]](https://aclanthology.org/2025.emnlp-main.886/)[[Code]](https://github.com/hobolee/CLLMate)
+
+#### Dual Branch
+- [OKG-LLM: Aligning ocean knowledge graph with observation data via LLMs for global sea surface temperature prediction][[IEEE TKDE 2026]](https://github.com/Neoyanghc/OKGLLM)[[Code]](https://github.com/Neoyanghc/OKGLLM)
+- [K-Link: Knowledge-Link Graph from LLMs for Enhanced Representation Learning in Multivariate Time-Series Data][[arXiv 2024]](https://arxiv.org/abs/2403.03645)
 
 ## Dataset
 ### General
@@ -67,3 +76,19 @@ We will continue to update the list of the resources and provide a comprehensive
 - [[Geant]](https://dl.acm.org/doi/10.1145/1111322.1111341)
 - [[Shanghai Dataset]](https://ieeexplore.ieee.org/document/7762185)
 - [[Nanjing Dataset]](https://dl.acm.org/doi/10.1145/3690650)
+
+### Environment
+- [[ERA5]](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels)
+- [[NOAA SST (OKG-LLM subset)]](https://github.com/Neoyanghc/OKGLLM/blob/main/dataset/sst_noland_5x5_weekly_30.csv)
+
+### Healthcare
+- [[ISRUC-Sleep (ISRUC-S3)]](https://sleeptight.isr.uc.pt/)
+- [[UCI-HAR]](https://archive.ics.uci.edu/dataset/240/human%2Bactivity%2Brecognition%2Busing%2Bsmartphones)
+
+### Remote Sensing
+- [[fMoW]](https://github.com/fMoW/dataset)
+- [[DVL-Suite (DVL-Instruct / DVL-Bench)]](https://github.com/weihao1115/dynamicvl#data-setup)
+
+### Social Networks
+- [[Enron]](https://www.cs.cmu.edu/~enron/)
+
